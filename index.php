@@ -1,7 +1,5 @@
 <?php
-
-require 'worker_one\worker.php';
-require 'worker_two\worker.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
 $object = new \worker_one\worker();
 $object->name = "Иван";

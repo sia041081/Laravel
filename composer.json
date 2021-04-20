@@ -1,0 +1,13 @@
+{
+    "name": "vagrant/laravel",
+    "require": {
+
+    },
+    "autoload": {
+        "files": [
+            "worker_one/worker.php",
+            "worker_two/worker.php"
+        ]
+    }
+
+}
