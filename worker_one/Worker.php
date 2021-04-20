@@ -4,7 +4,7 @@
 namespace worker_one;
 
 
-class worker
+class Worker
 {
     public $name;
     public $age;

@@ -4,10 +4,11 @@
 
     },
     "autoload": {
-        "files": [
-            "worker_one/worker.php",
-            "worker_two/worker.php"
-        ]
+        "psr-4" : {
+            "Laravel\\" : "worker_one",
+            "Laravel\\" : "worker_two"
+        },
+
     }
 
 }
