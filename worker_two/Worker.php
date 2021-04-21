@@ -1,6 +1,6 @@
 <?php
 
-namespace worker_two;
+namespace Worker_two;
 
 class worker
 {

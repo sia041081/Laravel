@@ -6,12 +6,12 @@ $object->name = "Иван";
 $object->age = 25;
 $object->salary = 1000;
 
-echo '<br>';
+
 $object_2 = new worker_one\Worker();
 $object_2->name = "Вася";
 $object_2->age = 26;
 $object_2->salary = 2000;
-echo '<br>';
+
 $summ = $object->salary + $object_2->salary;
 echo "summ = " . $summ;
 

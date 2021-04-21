@@ -1,7 +1,7 @@
 <?php
 
 
-namespace worker_one;
+namespace Worker_one;
 
 
 class Worker

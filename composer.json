@@ -5,8 +5,8 @@
     },
     "autoload": {
         "psr-4" : {
-            "Laravel\\" : "worker_one",
-            "Laravel\\" : "worker_two"
+            "Worker_one\\" : "worker_one/",
+            "Worker_two\\" : "worker_two/"
         },
 
     }
